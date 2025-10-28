@@ -1,0 +1,9 @@
+.wrap{ display:grid; grid-template-columns:1fr 1.2fr; gap:28px; }
+.img{ width:100%; max-height:460px; object-fit:contain; }
+.h1{ margin:0 0 8px; font-size:1.6rem; }
+.desc{ color:#444; line-height:1.55; }
+.price{ font-weight:800; font-size:1.25rem; margin-top:8px; }
+.row{ display:flex; gap:10px; align-items:center; margin-top:10px; }
+.btn{ padding:10px 14px; border-radius:999px; border:1px solid var(--line); background:#fff; cursor:pointer; }
+.cta{ background:var(--brand); border-color:#e3b12c; font-weight:800; }
+@media (max-width:860px){ .wrap{ grid-template-columns:1fr; } }
