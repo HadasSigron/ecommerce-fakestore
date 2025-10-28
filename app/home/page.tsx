@@ -1,6 +1,6 @@
 "use client";
 import ProductList from "@/app/components/ProductList/ProductList";
-import s from "./home/Home.module.css";
+import s from "./Home.module.css";
 
 export default function HomePage() {
   return (
