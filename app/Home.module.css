@@ -1,0 +1,18 @@
+.hero {
+  display: flex;
+  justify-content: center;
+  padding: 34px 0 18px;
+}
+
+.logo {
+  max-width: 280px; 
+  width: 100%;     
+  height: auto;
+}
+
+.sectionTitle {
+  text-align: center;
+  margin: 16px 0 24px;
+  font-weight: 700;
+  letter-spacing: .08em;
+}

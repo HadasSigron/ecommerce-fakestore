@@ -19,7 +19,7 @@ export default function Header() {
     <header className={s.header}>
       <nav className={s.navbar}>
         <Link href="/" className={`${s.logo} ${s.link}`}>
-          <img src="/favicon.ico" alt="" /> SHOP
+          <img src="/logo.png" alt="" /> 
         </Link>
 
         <Nav href="/" label="Home" />

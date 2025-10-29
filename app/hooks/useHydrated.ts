@@ -1,4 +1,3 @@
-// app/hooks/useHydrated.ts
 "use client";
 import { useEffect, useState } from "react";
 export default function useHydrated() {
